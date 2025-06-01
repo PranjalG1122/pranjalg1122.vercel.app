@@ -39,13 +39,14 @@ export const projects = [
 
 export const tech = [
   {
+    text: "TanStack",
+    link: "https://tanstack.com/",
+  },
+  {
     text: "Go",
     link: "https://golang.org/",
   },
-  {
-    text: "Svelte",
-    link: "https://svelte.dev/",
-  },
+
   {
     text: "Bun",
     link: "https://bun.sh/",

@@ -6,11 +6,11 @@ import Link from "next/link";
 export default function AboutSection() {
   return (
     <SectionContainer id="about">
-      <h1 className={roboto.className + " text-sky-300 md:text-base text-sm"}>
+      <h1 className={roboto.className + " text-blue-300 md:text-base text-sm"}>
         Who am I?
       </h1>
       <h1 className="md:text-4xl text-xl font-semibold">About</h1>
-      <div className="w-full flex flex-col items-start gap-4 text-sky-200 md:text-base text-sm text-opacity-75 ">
+      <div className="w-full flex flex-col items-start gap-4 text-blue-200/85 md:text-base text-sm">
         <p className="w-full text-justify">
           Heyo! I'm Pranjal Gupta, and I love crafting interactive,
           user-friendly experiences on the web. My journey into web development
@@ -22,7 +22,7 @@ export default function AboutSection() {
             href="https://random-excuses.netlify.app/index.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-50 font-medium hover:text-sky-300 transition-colors"
+            className="text-blue-50 font-medium hover:text-blue-300 transition-colors"
           >
             random excuses
           </a>
@@ -39,7 +39,7 @@ export default function AboutSection() {
               href={tech.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sky-50 font-medium hover:text-sky-300 transition-colors"
+              className="text-blue-50 font-medium hover:text-blue-300 transition-colors"
             >
               {tech.text},{" "}
             </Link>
@@ -64,7 +64,7 @@ export default function AboutSection() {
             href={latestShowsAndMovies.show}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-50 font-medium hover:text-sky-300 transition-colors"
+            className="text-blue-50 font-medium hover:text-blue-300 transition-colors"
           >
             shows
           </Link>{" "}
@@ -73,7 +73,7 @@ export default function AboutSection() {
             href={latestShowsAndMovies.movie}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sky-50 font-medium hover:text-sky-300 transition-colors"
+            className="text-blue-50 font-medium hover:text-blue-300 transition-colors"
           >
             movies
           </Link>

@@ -44,20 +44,20 @@ export default function SearchAndBlogs({
                 <div className="flex md:flex-row flex-col md:items-center items-start gap-2 w-full justify-between">
                   <Link
                     href={"/blog/" + blogs[i]}
-                    className="hover:text-sky-300 md:text-lg text-base transition-colors"
+                    className="hover:text-blue-300 md:text-lg text-base transition-colors"
                   >
                     {blog.title}
                   </Link>
                   <p
                     className={
                       roboto.className +
-                      " text-sky-200 text-opacity-55 md:text-base text-sm"
+                      " text-blue-200/85 md:text-base text-sm"
                     }
                   >
                     {blog.date}
                   </p>
                 </div>
-                <p className="text-sky-200 text-opacity-75 md:text-base text-sm">
+                <p className="text-blue-200/85 md:text-base text-sm">
                   {blog.summary}
                 </p>
               </li>

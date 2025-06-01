@@ -8,7 +8,7 @@ export default function Footer() {
         " flex flex-row items-center justify-center w-full py-4"
       }
     >
-      <p className="text-sky-200 text-opacity-75 md:text-xs text-xs">
+      <p className="text-blue-200/85 md:text-xs text-xs">
         Hand Crafted with Care by Pranjal Gupta
       </p>
     </footer>

@@ -7,14 +7,17 @@ export default function ContactSection() {
   return (
     <SectionContainer id="contact">
       <div className="flex flex-col items-center md:gap-6 gap-4 w-full h-full justify-center">
-        <h1 className={roboto.className + " text-sky-300 md:text-base text-sm"}>
+        <h1
+          className={roboto.className + " text-blue-300 md:text-base text-sm"}
+        >
           What's next in store?
         </h1>
         <h1 className="md:text-4xl text-xl font-semibold">Get in Touch</h1>
-        <p className="text-sky-200 text-opacity-75 w-full max-w-xl text-center">
+        <p className="text-blue-200/85 w-full max-w-xl text-center">
           I'm always up for new adventures, and my inbox is wide open! Or take a
           peek at my blog. Got a question or just wanna say hi? Drop me a
-          message, and I'll be sure to get back to you! 🚀
+          message, and I'll be sure to get back to you!{" "}
+          <span className="text-opacity-100 text-white">🚀</span>
         </p>
         <div className="flex flex-row items-center gap-2">
           <Link
@@ -24,7 +27,7 @@ export default function ContactSection() {
             Drop a Message
           </Link>
           <Link href="/blog" className={variants({ variant: "primary" })}>
-            Read my Blog
+            Read My Blog
           </Link>
         </div>
       </div>

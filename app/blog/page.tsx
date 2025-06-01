@@ -3,7 +3,6 @@ import SearchAndBlogs from "@/components/SearchAndBlogs";
 import { roboto } from "@/lib/font";
 import getBlogs from "@/server/getBlogs";
 
-
 export default async function Blog() {
   const { blogs, blogFrontMatter } = await getBlogs();
 
@@ -13,7 +12,7 @@ export default async function Blog() {
       <h1
         className={
           roboto.className +
-          " text-sky-300 md:text-base text-sm animate-fadeLeft300"
+          " text-blue-300 md:text-base text-sm animate-fadeLeft300"
         }
       >
         Sharing ideas and insights
@@ -27,5 +26,3 @@ export default async function Blog() {
     </main>
   );
 }
-
-
